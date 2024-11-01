@@ -1,0 +1,25 @@
+{
+  "extends": "vtex-react/io",
+  "rules": {
+    "no-console": "warn", // Permite console.logs, mas exibe um aviso ao invés de erro
+    "no-unused-vars": [
+      "warn",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }
+    ],
+    "react/prop-types": "off", // Desativa a exigência de PropTypes em componentes
+    "react/jsx-props-no-spreading": "off", // Permite o spreading de props em JSX
+    "import/prefer-default-export": "off", // Permite a exportação nomeada única
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "react-hooks/rules-of-hooks": "error", // Mantém as regras de hooks como erro
+    "react-hooks/exhaustive-deps": "warn", // Exibe um aviso ao invés de erro sobre dependências nos hooks
+    "max-len": ["warn", { "code": 120 }], // Aumenta o limite de caracteres por linha para 120
+    "indent": ["warn", 2, { "SwitchCase": 1 }], // Apenas um aviso para identação incorreta
+    "quotes": ["warn", "single", { "avoidEscape": true }], // Prefere aspas simples, mas permite aspas duplas quando necessário
+    "@typescript-eslint/no-explicit-any": "off",
+    "comma-dangle": ["off"],
+    "jsx-a11y/label-has-associated-control": "off"
+  }
+}

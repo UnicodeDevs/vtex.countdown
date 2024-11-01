@@ -1,0 +1,16 @@
+{
+  "extends": "vtex",
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "lib": ["dom"],
+    "jsx": "react-jsx",
+    "noImplicitReturns": false
+  },
+  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"]
+}

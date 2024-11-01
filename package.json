@@ -1,0 +1,20 @@
+{
+  "vendor": "unicodepartnerbr",
+  "name": "unicode-countdown",
+  "version": "0.0.1",
+  "title": "Unicode - Countdown",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.session-client": "1.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.store": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,17 @@
+{
+  "vendor": "{your store}",
+  "name": "unicode-countdown",
+  "version": "0.0.1",
+  "title": "Unicode - Countdown",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

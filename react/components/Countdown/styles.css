@@ -1,0 +1,40 @@
+.numericDateWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.numericDate {
+  text-align: center;
+}
+
+.numericDateLeft {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.numericDateLeft span {
+  text-align: center;
+}
+
+.numericDateRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.diffNumber {
+  text-align: center;
+}
+
+.numericDate span {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+span[class*='diff'] {
+  position: relative;
+}
